@@ -1,1 +1,1 @@
-This is the READEME file for assignment 2
+This is the README file for assignment 2
