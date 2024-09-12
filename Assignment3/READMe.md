@@ -11,7 +11,7 @@ I did everythng correctly.
 
 *Learnings and Challenges:*
 - I learned various techniques
-- Wasn't quite sure how to link an image
+- Wasn't quite sure how to link an image. Figured it out after some trial and error.
 
 For details, visit [CommonMark Markdown Tutorial](http://commonmark.org/help/tutorial/)
 
