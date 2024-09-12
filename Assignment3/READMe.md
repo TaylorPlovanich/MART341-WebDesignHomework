@@ -2,7 +2,8 @@
 
 ## Introduction
 
-This is what I did for Assignment 3
+This is what I did for Assignment 3. I'm pretty sure that 
+I did everythng correctly.
 
 **Key Points:**
 - Went through Markdown Tutorial
