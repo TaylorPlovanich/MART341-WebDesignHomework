@@ -18,10 +18,10 @@ XML: Unlike HTML, XML describes document nodes for data sharing and transport. I
 XHTML: A stricter version of HTML that follows XML standards. It ensures accurate markup, is more precise, but takes longer to write and maintain, especially for mobile devices.
 
 ## Essential Elements of an HTML Page
-- <!DOCTYPE html>: Defines HTML5.
-<html>: Root of the document.
-<head>: Meta info and links.
-<body>: Visible content.
+- < !DOCTYPE html>: Defines HTML5.
+< html>: Root of the document.
+< head>: Meta info and links.
+< body>: Visible content.
 
 ## The index.html Page
 - index.html is the default page served when visiting a website. It should be placed in the root directory of your website.
