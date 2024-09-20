@@ -4,11 +4,11 @@
 - User Input: The user types a URL or clicks a link.
 DNS Lookup: The browser retrieves the IP address of the server hosting the requested webpage through the Domain Name System (DNS).
 
-Request & Response: The browser sends a request to the server, which replies with the necessary files.
+- Request & Response: The browser sends a request to the server, which replies with the necessary files.
 
-Rendering: The browser uses a rendering engine to parse the HTML, build the DOM, apply styles (CSS), and run JavaScript.
+- Rendering: The browser uses a rendering engine to parse the HTML, build the DOM, apply styles (CSS), and run JavaScript.
 
-Displaying: The browser then displays the fully rendered page to the user.
+- Displaying: The browser then displays the fully rendered page to the user.
 
 ## The DOM (Document Object Model)
 - The DOM is a structured tree of HTML elements. It allows JavaScript to modify and interact with a webpage by treating elements as nodes that can be accessed and changed.
@@ -23,11 +23,11 @@ XHTML: A stricter version of HTML that follows XML standards. It ensures accurat
 ## Essential Elements of an HTML Page
 - < !DOCTYPE html>: Defines HTML5.
   
-< html>: Root of the document.
+- < html>: Root of the document.
 
-< head>: Meta info and links.
+- < head>: Meta info and links.
 
-< body>: Visible content.
+- < body>: Visible content.
 
 ## The index.html Page
 - index.html is the default page served when visiting a website. It should be placed in the root directory of your website.
