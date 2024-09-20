@@ -3,8 +3,11 @@
   
 - User Input: The user types a URL or clicks a link.
 DNS Lookup: The browser retrieves the IP address of the server hosting the requested webpage through the Domain Name System (DNS).
+
 Request & Response: The browser sends a request to the server, which replies with the necessary files.
+
 Rendering: The browser uses a rendering engine to parse the HTML, build the DOM, apply styles (CSS), and run JavaScript.
+
 Displaying: The browser then displays the fully rendered page to the user.
 
 ## The DOM (Document Object Model)
@@ -19,8 +22,11 @@ XHTML: A stricter version of HTML that follows XML standards. It ensures accurat
 
 ## Essential Elements of an HTML Page
 - < !DOCTYPE html>: Defines HTML5.
+  
 < html>: Root of the document.
+
 < head>: Meta info and links.
+
 < body>: Visible content.
 
 ## The index.html Page
