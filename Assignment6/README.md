@@ -12,11 +12,13 @@ In this project, I applied several balance concepts by adjusting the width and b
 
 2. Final Design vs. Initial Idea
 
-Initially, my design concept was more straightforward, with less emphasis on visual hierarchy and balance. However, as I progressed, I realized that incorporating elements like images, quotes, and a collage significantly enriched the overall aesthetic and user experience. The final design exceeded my expectations in terms of balance; I found that using CSS properties like margins and floats helped distribute space evenly. While my final layout retained the core elements of my initial idea, I made several adjustments, such as adding a wildlife collage and modifying image sizes, which enhanced the overall balance of the design.
+Initially, my design concept was more straightforward. I knew I wanted a large picture at the beginning to greet, or grab the attention, of the user. Also, when I looked at your code example for your site, I also checked out your website design, and it was pretty much the same idea I had, except yours was better organized. 
+
+I also found that using CSS properties like margins and floats helped distribute space evenly. While my final layout retained the core elements of my initial idea, I made several adjustments, such as adding a wildlife collage and modifying image sizes, which enhanced the overall balance of the design.
 
 3. Experiments with Float and Margin
 
-I experimented with float and margin properties to position images and text within my layout. Initially, I floated images to the left and right of the text just to see how things would look. 
+I experimented with float and margin properties to position images and text within my layout. Initially, I floated images to the left and right of the text just to see how things would look. I looked at the code example you gave to see how it was done.
 
 4. Challenges and Solutions
 
