@@ -12,7 +12,7 @@ In this project, I applied several balance concepts by adjusting the width and b
 
 2. Final Design vs. Initial Idea
 
-Initially, my design concept was more straightforward. I knew I wanted a large picture at the beginning to greet, or grab the attention, of the user. Also, when I looked at your code example for your site, I also checked out your website design, and it was pretty much the same idea I had, except yours was better organized. 
+Initially, my design concept was more straightforward. I knew I wanted a large picture at the beginning to greet, or grab the attention, of the user. Also, when I looked at your code example for your site, I also checked out your website design, and it was pretty much the same idea I had, except yours was better organized. I really enjoy the colors and textures of the first image I posted. Not sure what will happen during the remainder of this course, but I think it would be great to incorporate the wood as the background, and have the images and texts be pinned to it, like  with thumb tacks or something. Like a bulletin board.
 
 I also found that using CSS properties like margins and floats helped distribute space evenly. While my final layout retained the core elements of my initial idea, I made several adjustments, such as adding a wildlife collage and modifying image sizes, which enhanced the overall balance of the design.
 
