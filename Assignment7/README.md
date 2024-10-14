@@ -21,5 +21,3 @@ In the future, I plan to enhance the following features:
 - Implement **real-time updates** so that user submissions appear instantly without needing to refresh the page.
 - Expand the **filtering options** for user-submitted content, allowing visitors to sort by categories like wildlife, plants, or specific locations.
 - Integrate **social sharing functionality** so users can share their submissions or favorite content directly to social media platforms.
-
-I’m open to feedback and would love to hear any suggestions for further improving the design and user experience of the website!
