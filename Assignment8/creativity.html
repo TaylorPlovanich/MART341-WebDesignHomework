@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Wildlife Art & Creativity</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body {background-color: rgb(236, 226, 214);}
+            h1, h2, p {color: rgb(35, 18, 11);}
+            form, textarea, input {width: 100%; margin: 10px 0;}
+            label {font-weight: bold;}
+        </style>
+    </head>
+    <body>
+        <!-- Header -->
+        <h1 style="text-align: center;">Wildlife Art & Creativity</h1>
+        
+        <!-- Link back to index.html -->
+    <p style="text-align: center;">
+        <a href="index.html"> Back to Wildlife Observation Journal</a>
+    </p>
+        
+        <hr />
+
+        <!-- Section for uploading sketches and illustrations -->
+        <h2>Wildlife Sketches & Illustrations</h2>
+        <p>Upload your wildlife sketches, illustrations, or creative interpretations of nature:</p>
+        <form action="#" method="POST">
+            <label for="fileUpload">Choose a file:</label>
+            <input type="file" id="fileUpload" name="fileUpload">
+            <input type="submit" value="Upload">
+        </form>
+
+        <!-- Section for submitting wildlife photos -->
+        <h2>Wildlife Photo Gallery</h2>
+        <p>Share your wildlife photographs and add a caption describing your observation:</p>
+        <form action="#" method="POST">
+            <label for="photoUpload">Choose a photo:</label>
+            <input type="file" id="photoUpload" name="photoUpload">
+            <br><br>
+            <label for="caption">Caption:</label>
+            <textarea id="caption" name="caption" rows="4" cols="50" placeholder="Write your photo caption..."></textarea>
+            <br><br>
+            <input type="submit" value="Submit Photo">
+        </form>
+
+        <!-- Section for creative storytelling -->
+        <h2>Creative Storytelling</h2>
+        <p>Write a short story, poem, or reflection inspired by your wildlife encounters:</p>
+        <form action="#" method="POST">
+            <label for="story">Your Story:</label>
+            <textarea id="story" name="story" rows="6" cols="60" placeholder="Write your creative story here..."></textarea>
+            <br><br>
+            <input type="submit" value="Submit Story">
+        </form>
+    </body>
+</html>

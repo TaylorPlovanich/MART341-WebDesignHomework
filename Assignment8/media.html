@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Exploration Media</title>
+    <style>
+        body {
+            background-color: rgb(236, 226, 214);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Navigation styling */
+        nav {
+            background-color: rgb(35, 18, 11);
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        /* Multimedia section styling */
+        .media-section {
+            padding: 20px;
+            text-align: center;
+        }
+        /* Image gallery styling */
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+        .image-grid img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        /* Footer styling */
+        footer {
+            background-color: rgb(35, 18, 11);
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="creativity.html">Wildlife Art & Creativity</a>
+        <a href="media.html">Media</a>
+        <span>Logo Placeholder</span>
+    </nav>
+
+    <!-- Multimedia Section -->
+    <div class="media-section">
+        <h2>Multimedia Experience</h2>
+        <video controls width="80%">
+            <source src="nature_documentary.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <h3>Ambient Nature Sounds</h3>
+        <audio controls>
+            <source src="nature_sounds.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="image-grid">
+        <h2>Image Gallery</h2>
+        <img src="landscape1.jpg" alt="Beautiful landscape">
+        <img src="flora1.jpg" alt="Close-up of a flower">
+        <img src="fauna1.jpg" alt="Wildlife in their habitat">
+        <img src="illustration1.jpg" alt="Nature illustration">
+        <!-- Add more images as needed -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Credits: Images and sounds are used under fair use for educational purposes.</p>
+        <p>© 2024 Wildlife Observation Journal. All rights reserved.</p>
+    </footer>
+</body>
+</html>
