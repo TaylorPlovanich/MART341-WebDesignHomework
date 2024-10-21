@@ -1,23 +1,25 @@
-# Nature and Wildlife Observation Journal
+# Weekly Techniques Overview
 
-### Key Features I'm Most Proud Of
+## 1. Div Elements
+- **Div 1**: I used a <div> element to group the embedded audio and video content. This keeps the media section organized and allows me to apply consistent styling to this part of the page.
+- **Div 2**: Another <div> was used to wrap the "Multimedia Gallery" section, where I grouped images and other media to keep the layout structured and visually cohesive.
 
-The feature I'm most proud of is the **User Submission Form**, which allows visitors to contribute their own nature photos and stories. This interactive element enhances community engagement, making the website a collaborative space where users can showcase their experiences and inspire others. The form is simple to use and includes fields for uploading images, adding descriptions, and categorizing the type of observation (wildlife, plants, landscapes, etc.).
+## 2. Span Elements
+- **Span 1**: I used a <span> element to style specific parts of text within a paragraph, helping highlight keywords related to the media content.
+- **Span 2**: Another <span> was used within the caption of an image to emphasize the name of the photographer while keeping the rest of the caption in standard styling.
 
-In addition, the **Photo Collage Section** on the second page effectively displays a mix of user-submitted content, along with curated images, in a clean, responsive layout. The collage is visually appealing and adapts well to various screen sizes, ensuring a smooth experience across devices. The use of alt text and accessible design choices further emphasizes inclusivity, allowing users with different abilities to engage with the content fully.
+## 3. Audio Element
+- **Audio 1**: I embedded an <audio> element that plays a nature soundscape. This gives users an immersive auditory experience while they browse the page, connecting them to the wildlife content.
 
-### Design Choices and Functionality
+## 4. Video Element
+- **Video 1**: I included a <video> element that plays a short wildlife documentary clip. This allows users to visually engage with the nature theme in a dynamic way.
 
-1. **User Submission Form**: Visitors can easily upload their nature and wildlife photos along with stories, which are then displayed in the collage section. This creates a dynamic and ever-evolving gallery that reflects the community’s experiences.
-   
-2. **Responsive and Accessible Design**: The site is fully responsive, providing a seamless user experience across all devices. Accessibility features, such as alt text for all images and contrast in color schemes, ensure that the content is accessible to everyone, including those using screen readers.
+## 5. Iframe Element
+- **Iframe 1**: I embedded an <iframe> to show an interactive map of Montanato find wildlife locations and sighting areas. Right now, it's just a general map of Montana.
 
-3. **Interactive Photo Collage**: The user-generated content is displayed in an organized collage, making the homepage vibrant and interactive. This section automatically updates as more users submit their content.
+## 6. Class
+- **Class 1**: I created a .media-section class to style the entire media section of the page, making it easier to apply uniform padding, margins, and background colors to the audio and video elements.
+- **Class 2**: Another class, .gallery-item, was created to ensure consistent formatting for images and their captions in the multimedia gallery.
 
-### Future Improvements
-
-In the future, I plan to enhance the following features:
-
-- Implement **real-time updates** so that user submissions appear instantly without needing to refresh the page.
-- Expand the **filtering options** for user-submitted content, allowing visitors to sort by categories like wildlife, plants, or specific locations.
-- Integrate **social sharing functionality** so users can share their submissions or favorite content directly to social media platforms.
+## 7. Escape Character
+- **Escape Character 1**: I used the '&' escape character to display "Montana Fish, Wildlife & Parks" in the caption text, ensuring the ampersand renders correctly in the browser.
