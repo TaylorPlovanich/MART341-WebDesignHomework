@@ -1,4 +1,4 @@
-# Weekly Techniques Overview
+# Weekly Overview
 
 ## 1. Div Elements
 - **Div 1**: I used a <div> element to group the embedded audio and video content. This keeps the media section organized and allows me to apply consistent styling to this part of the page.
@@ -22,4 +22,4 @@
 - **Class 2**: Another class, .gallery-item, was created to ensure consistent formatting for images and their captions in the multimedia gallery.
 
 ## 7. Escape Character
-- **Escape Character 1**: I used the '&' escape character to display "Montana Fish, Wildlife & Parks" in the caption text, ensuring the ampersand renders correctly in the browser.
+- **Escape Character 1**: I used the escape character &amp; in the sentence "the relationship between birds & bees." 
