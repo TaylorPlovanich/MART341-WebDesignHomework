@@ -15,7 +15,7 @@
 - **Video 1**: I included a video element that plays a short wildlife documentary clip. This allows users to visually engage with the nature theme in a dynamic way.
 
 ## 5. Iframe Element
-- **Iframe 1**: I embedded an <iframe> to show an interactive map of Montanato find wildlife locations and sighting areas. Right now, it's just a general map of Montana.
+- **Iframe 1**: I embedded an <iframe> to show an interactive map of Montana to find wildlife locations and sighting areas. Right now, it's just a general map of Montana.
 
 ## 6. Class
 - **Class 1**: I created a .media-section class to style the entire media section of the page, making it easier to apply uniform padding, margins, and background colors to the audio and video elements.
