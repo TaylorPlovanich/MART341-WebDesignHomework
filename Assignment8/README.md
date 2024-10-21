@@ -12,7 +12,7 @@
 - **Audio 1**: I embedded an <audio> element that plays a nature soundscape. This gives users an immersive auditory experience while they browse the page, connecting them to the wildlife content.
 
 ## 4. Video Element
-- **Video 1**: I included a <video> element that plays a short wildlife documentary clip. This allows users to visually engage with the nature theme in a dynamic way.
+- **Video 1**: I included a video element that plays a short wildlife documentary clip. This allows users to visually engage with the nature theme in a dynamic way.
 
 ## 5. Iframe Element
 - **Iframe 1**: I embedded an <iframe> to show an interactive map of Montanato find wildlife locations and sighting areas. Right now, it's just a general map of Montana.
