@@ -33,6 +33,26 @@
         nav a:hover {
             text-decoration: underline; /* Underline on hover */
         }
+         /* Styling for the recipe container */
+         .recipe-card {
+            background-color: #fdf6e3; /* Light beige color to mimic paper */
+            padding: 20px;
+            max-width: 600px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow to give depth */
+            border: 1px solid #ddd; /* Optional thin border for card look */
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p, ul {
+            color: #333;
+            line-height: 1.6;
+        }
     </style>
 </head>
 <body>
@@ -47,10 +67,13 @@
             </ul>
         </nav>
     </div>
-    </header>
 
-    <main>
-        <h2>Ingredients</h2>
+    <!-- Recipe card container -->
+    <div class="recipe-card">
+        <h2>Delicious Banana Bread Recipe</h2>
+        <p>This banana bread recipe creates the most delicious, moist loaf with loads of banana flavor. Friends and family say it's by far the best!</p>
+        
+        <h3>Ingredients</h3>
         <ul>
             <li>2 cups all-purpose flour</li>
             <li>1 teaspoon baking soda</li>
@@ -61,22 +84,9 @@
             <li>2 ⅓ cups mashed overripe bananas</li>
         </ul>
 
-        <h2>Directions</h2>
-        <ol>
-            <li>Preheat the oven to 350°F (175°C).</li>
-            <li>Mix flour, baking soda, and salt in a bowl.</li>
-            <li>In another bowl, beat butter and brown sugar together, then stir in eggs and mashed bananas.</li>
-            <li>Combine the banana mixture with the flour mixture until just blended.</li>
-            <li>Pour the batter into a greased loaf pan and bake for 60 minutes.</li>
-            <li>Let cool before serving.</li>
-        </ol>
+        <h3>Directions</h3>
+        <p>Preheat oven to 350°F (175°C). Lightly grease a 9x5-inch loaf pan. Combine flour, baking soda, and salt. Beat sugar and butter in another bowl, then add eggs and mashed bananas. Stir the wet mixture into the dry ingredients. Pour batter into the pan and bake for about 60 minutes.</p>
+    </div>
 
-        <h2>Pro Tips</h2>
-        <p>Use ripe bananas with brown spots for the best flavor. Store the bread properly to keep it moist.</p>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
 </body>
 </html>
