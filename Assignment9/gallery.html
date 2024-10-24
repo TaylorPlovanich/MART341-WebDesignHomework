@@ -3,12 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Banana Bread Gallery</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Gallery - Banana Banana Bread</title>
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 10px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Banana Bread Photo Gallery</h1>
+
+    <div class="header">
+        <h1>Banana Banana Bread</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -16,24 +46,12 @@
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </nav>
-    </header>
+    </div>
 
-    <main>
-        <h2>Gallery of My Banana Bread</h2>
-        <div class="gallery">
-            <img src="banana_bread_1.jpg" alt="Freshly baked banana bread">
-            <p>Freshly baked banana bread.</p>
+    <h2>Gallery</h2>
+    <p>Check out some photos of this delicious banana bread!</p>
+    <img src="banana_bread_photo1.jpg" alt="Banana Bread Photo 1">
+    <img src="banana_bread_photo2.jpg" alt="Banana Bread Photo 2">
 
-            <img src="banana_bread_2.jpg" alt="Sliced banana bread with butter">
-            <p>Banana bread sliced and ready to serve.</p>
-
-            <img src="banana_bread_3.jpg" alt="Chocolate chip banana bread">
-            <p>Chocolate chip variation of banana bread.</p>
-        </div>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Your Name</p>
-    </footer>
 </body>
 </html>
