@@ -33,6 +33,23 @@
         nav a:hover {
             text-decoration: underline;
         }
+        h2 {
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            width: 300px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
     </style>
 </head>
 <body>
@@ -49,9 +66,12 @@
     </div>
 
     <h2>Gallery</h2>
-    <p>Check out some photos of this delicious banana bread!</p>
-    <img src="Images/Bread2.jpg" alt="Banana Bread Photo 1">
-    <img src="Images/Bread3.jpg" alt="Banana Bread Photo 2">
+    <p style="text-align: center;">Check out some photos of this delicious banana bread!</p>
+
+    <div class="gallery">
+        <img src="Images/Bread2.jpg" alt="Banana Bread Photo 1">
+        <img src="Images/Bread3.jpg" alt="Banana Bread Photo 2">
+    </div>
 
 </body>
 </html>
