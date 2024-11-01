@@ -123,3 +123,10 @@ footer p, footer a {
 footer a:hover {
     color: #d3f8f3;
 }
+
+.banner {
+    height: 400px; /* or your preferred height */
+    background-image: url('images/banner.jpg');
+    background-size: cover; /* This makes sure the image covers the entire section */
+    background-position: center; /* Centers the image */
+}
