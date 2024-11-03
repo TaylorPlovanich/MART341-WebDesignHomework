@@ -21,7 +21,3 @@
 - **Positioning**: Flexbox is used to position elements such as the navigation bar, service boxes, and form layout, ensuring a responsive and balanced layout.
 - **Opacity**: Used to add slight transparency to overlay elements, creating a modern look in areas like the footer and contact form buttons.
 - **Borders**: Borders are added around service boxes and form inputs to enhance structure and draw attention to interactive areas.
-
----
-
-This README provides an overview of how the techniques were applied to create a cohesive and visually appealing website for FitLife Gym.
