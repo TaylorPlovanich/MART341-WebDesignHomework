@@ -1,23 +1,19 @@
-
+/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'Montserrat', Arial, sans-serif; /* Self-hosted font for body text */
+    line-height: 1.6;
     color: #333;
+    background-color: #f4f4f9;
 }
 
-
-nav {
-    background-color: #028090;
-    padding: 15px;
-    text-align: center;
-}
-
+/* Navigation Styling */
 nav ul {
     list-style-type: none;
     display: flex;
@@ -26,125 +22,97 @@ nav ul {
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-weight: bold;
+    color: #333;
+    font-family: 'Playfair Display', serif; /* Font for navigation */
+    font-weight: 700;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #d3f8f3;
+    color: #0077cc;
 }
 
-
+/* Main Banner Styling */
 #main-banner {
-    height: 250px;
-    background-color: #005f73;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3em;
+    padding: 60px 20px;
     text-align: center;
-    letter-spacing: 0.1em;
+    color: #fff;
 }
 
-
-.about-us, .services {
-    padding: 50px;
-    text-align: center;
-    background-color: #e0fbfc;
-    margin: 20px auto;
-    max-width: 1000px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+#main-banner h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 2.5em;
 }
 
+#main-banner p {
+    font-size: 1.2em;
+}
 
-.services-content {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.services h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 .service-box {
-    background-color: #94d2bd;
-    color: #222;
-    margin: 10px;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid #028090;
-    border-radius: 8px;
-    flex: 1 1 30%;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
-}
-
-.service-box:hover {
-    transform: scale(1.05);
-}
-
-
-blockquote {
-    font-size: 1.5em;
-    font-style: italic;
-    color: #028090;
     margin: 20px 0;
 }
 
-#quote-author {
-    font-size: 1em;
-    color: #555;
-    margin-top: 5px;
+.service-box h3 {
+    font-size: 1.5em;
 }
 
-
-.full-width-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-}
-
-
-footer {
-    background-color: #005f73;
-    color: white;
+/* Featured Quote Section */
+.quote {
     text-align: center;
-    padding: 20px;
-    opacity: 0.9;
+    padding: 50px 20px;
+    font-style: italic;
+    font-size: 1.2em;
 }
 
-footer p, footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 0.9em;
-}
-
-footer a:hover {
-    color: #d3f8f3;
-}
-
-.banner {
-    height: 400px; 
-    background-image: url('images/banner.jpg');
-    background-size: cover; 
-    background-position: center; 
-}
-
-.gallery {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    flex-wrap: wrap; 
-    gap: 20px; 
-    padding: 20px;
-}
-
-.gallery-image {
-    max-width: 200px; 
-    height: auto; 
-}
-
-body {
+.quote blockquote {
     font-family: 'Playfair Display', serif;
+    font-weight: 700;
+}
+
+/* Gallery Section */
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.gallery img {
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Styling */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-logo {
+    width: 80px;
+    margin-bottom: 10px;
 }
