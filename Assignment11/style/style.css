@@ -1,21 +1,18 @@
-/* Import Roboto font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
-/* Apply Roboto to everything on the page */
+/* Resetting default margin, padding, and setting box-sizing */
 * {
-    font-family: 'Roboto', Arial, sans-serif; /* Use Roboto for all text elements */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Global body styles */
+/* Basic styling for the body */
 body {
+    font-family: 'Roboto', Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Styling for the navigation */
+/* Navigation styles */
 nav {
     background-color: #028090;
     padding: 15px;
@@ -39,7 +36,7 @@ nav ul li a:hover {
     color: #d3f8f3;
 }
 
-/* Banner Section */
+/* Main banner styling */
 #main-banner {
     height: 250px;
     background-color: #005f73;
@@ -52,7 +49,7 @@ nav ul li a:hover {
     letter-spacing: 0.1em;
 }
 
-/* About Us & Services Section */
+/* About us and services section styles */
 .about-us, .services {
     padding: 50px;
     text-align: center;
@@ -63,7 +60,7 @@ nav ul li a:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Services Section Layout */
+/* Services content layout */
 .services-content {
     display: flex;
     justify-content: space-around;
@@ -87,7 +84,7 @@ nav ul li a:hover {
     transform: scale(1.05);
 }
 
-/* Blockquote Styling */
+/* Styling for blockquotes */
 blockquote {
     font-size: 1.5em;
     font-style: italic;
@@ -101,7 +98,7 @@ blockquote {
     margin-top: 5px;
 }
 
-/* Full-width Image */
+/* Full width image style */
 .full-width-image {
     width: 100%;
     height: auto;
@@ -109,7 +106,7 @@ blockquote {
     object-fit: cover;
 }
 
-/* Footer Styling */
+/* Footer styles */
 footer {
     background-color: #005f73;
     color: white;
@@ -128,7 +125,7 @@ footer a:hover {
     color: #d3f8f3;
 }
 
-/* Banner Styling */
+/* Banner section */
 .banner {
     height: 400px; 
     background-image: url('images/banner.jpg');
@@ -136,7 +133,7 @@ footer a:hover {
     background-position: center; 
 }
 
-/* Gallery Layout */
+/* Gallery layout */
 .gallery {
     display: flex;
     justify-content: center; 
@@ -151,7 +148,10 @@ footer a:hover {
     height: auto; 
 }
 
-/* Apply Roboto font to headers (h1, h2, h3) */
+/* Importing Google Fonts for Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Applying the Roboto font to headings */
 h1, h2, h3 {
-    font-family: 'Roboto', sans-serif; /* Use Roboto for headers */
+    font-family: 'Roboto', sans-serif;
 }
