@@ -134,3 +134,19 @@ footer {
 #reviews-container {
     overflow: auto; /* In case there are too many cards on one row */
 }
+
+/* Gallery layout for images */
+.gallery {
+    display: flex;
+    justify-content: center;  /* Centers images horizontally */
+    align-items: center;  /* Aligns images vertically */
+    flex-wrap: wrap;  /* Allows images to wrap when the screen is small */
+    gap: 20px;  /* Space between images */
+    padding: 20px;  /* Padding around the gallery */
+}
+
+/* Individual image styling */
+.gallery-image {
+    max-width: 200px;  /* Limits the width of each image */
+    height: auto;  /* Ensures the aspect ratio of the image is maintained */
+}
