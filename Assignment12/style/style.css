@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Navigation Bar */
+/* Navigation Bar Styles */
 nav {
     background-color: #028090;
     padding: 15px;
@@ -30,16 +30,10 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
 }
 
 nav ul li a:hover {
     color: #d3f8f3;
-}
-
-nav ul li a.active {
-    color: #d3f8f3; /* Highlight the active page */
-    text-decoration: underline;
 }
 
 /* Main Banner */
