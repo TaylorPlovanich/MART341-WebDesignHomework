@@ -310,3 +310,27 @@ footer {
     max-width: 200px;  /* Limits the width of each image */
     height: auto;  /* Ensures the aspect ratio of the image is maintained */
 }
+
+/* Ensure body and html can expand beyond the viewport */
+html, body {
+    height: 100%;
+    overflow-y: auto; /* Allows scrolling when content exceeds the viewport */
+}
+
+/* Ensure that sections are allowed to grow beyond the viewport */
+.about-us, .contact {
+    min-height: 100vh; /* Makes sure sections stretch to at least the full height of the viewport */
+    padding: 50px;
+    text-align: center;
+    background-color: #e0fbfc;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Allows content to overflow and enables scrolling within the section if needed */
+}
+
+/* Adjust padding if necessary to prevent content being too cramped */
+.about-us p, .contact p {
+    padding: 20px;
+}
