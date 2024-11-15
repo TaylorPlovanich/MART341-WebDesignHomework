@@ -49,8 +49,8 @@ nav ul li a:hover {
     letter-spacing: 0.1em;
 }
 
-/* Services section styles */
-.services {
+/* About us and services section styles */
+.about-us, .services {
     padding: 50px;
     text-align: center;
     background-color: #e0fbfc;
@@ -60,41 +60,50 @@ nav ul li a:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Reviews Section */
-#reviews-container {
+/* Services content layout */
+.services-content {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
-    justify-content: center;
-    padding: 20px;
-    overflow: auto;
 }
 
-.review-card {
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 20px;
+.service-box {
+    background-color: #94d2bd;
+    color: #222;
     margin: 10px;
-    width: 300px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #028090;
+    border-radius: 8px;
+    flex: 1 1 30%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 
-.star-rating {
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for blockquotes */
+blockquote {
     font-size: 1.5em;
-    color: #FFD700;
+    font-style: italic;
+    color: #028090;
+    margin: 20px 0;
 }
 
-.review-title {
-    font-size: 1.3em;
-    margin-top: 10px;
-    color: #333;
-}
-
-.review-text {
+#quote-author {
     font-size: 1em;
     color: #555;
-    margin-top: 10px;
-    line-height: 1.5;
+    margin-top: 5px;
+}
+
+/* Full width image style */
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
 }
 
 /* Footer styles */
@@ -116,4 +125,188 @@ footer a:hover {
     color: #d3f8f3;
 }
 
-/* Gallery layout
+/* Banner section */
+.banner {
+    height: 400px; 
+    background-image: url('images/banner.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* Gallery layout */
+.gallery {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.gallery-image {
+    max-width: 200px; 
+    height: auto; 
+}
+
+/* Importing Google Fonts for Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Applying the Roboto font to headings */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Reviews Page Styles */
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main Banner */
+#main-banner {
+    background-color: #008CBA;
+    padding: 50px 0;
+    margin-top: 60px; /* Adjusted for the fixed navbar */
+    text-align: center;
+}
+
+/* Dropdown */
+.dropdown {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.dropdown select {
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Reviews Section */
+#reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    overflow: auto; /* Handling overflow for multiple review cards */
+}
+
+.review-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* To handle any overflowing content within the card */
+}
+
+.star-rating {
+    font-size: 1.5em;
+    color: #FFD700;
+}
+
+.review-title {
+    font-size: 1.3em;
+    margin-top: 10px;
+    color: #333;
+}
+
+.review-text {
+    font-size: 1em;
+    color: #555;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Handling Overflow for Reviews Section */
+#reviews-container {
+    overflow: auto; /* In case there are too many cards on one row */
+}
+
+/* Gallery layout for images */
+.gallery {
+    display: flex;
+    justify-content: center;  /* Centers images horizontally */
+    align-items: center;  /* Aligns images vertically */
+    flex-wrap: wrap;  /* Allows images to wrap when the screen is small */
+    gap: 20px;  /* Space between images */
+    padding: 20px;  /* Padding around the gallery */
+}
+
+/* Individual image styling */
+.gallery-image {
+    max-width: 200px;  /* Limits the width of each image */
+    height: auto;  /* Ensures the aspect ratio of the image is maintained */
+}
