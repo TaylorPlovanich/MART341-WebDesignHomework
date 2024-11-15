@@ -1,0 +1,303 @@
+/* Resetting default margin, padding, and setting box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #028090;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d3f8f3;
+}
+
+/* Main banner styling */
+#main-banner {
+    height: 250px;
+    background-color: #005f73;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+/* About us and services section styles */
+.about-us, .services {
+    padding: 50px;
+    text-align: center;
+    background-color: #e0fbfc;
+    margin: 20px auto;
+    max-width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Services content layout */
+.services-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background-color: #94d2bd;
+    color: #222;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #028090;
+    border-radius: 8px;
+    flex: 1 1 30%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for blockquotes */
+blockquote {
+    font-size: 1.5em;
+    font-style: italic;
+    color: #028090;
+    margin: 20px 0;
+}
+
+#quote-author {
+    font-size: 1em;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Full width image style */
+.full-width-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* Footer styles */
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+footer p, footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+footer a:hover {
+    color: #d3f8f3;
+}
+
+/* Banner section */
+.banner {
+    height: 400px; 
+    background-image: url('images/banner.jpg');
+    background-size: cover; 
+    background-position: center; 
+}
+
+/* Gallery layout */
+.gallery {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+    padding: 20px;
+}
+
+.gallery-image {
+    max-width: 200px; 
+    height: auto; 
+}
+
+/* Importing Google Fonts for Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Applying the Roboto font to headings */
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #028090;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #d3f8f3;
+}
+
+/* Page Header */
+#main-banner {
+    height: 250px;
+    background-color: #005f73;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3em;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+/* Dropdown Menu */
+.dropdown {
+    margin: 20px auto;
+    text-align: center;
+}
+
+.dropdown label {
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #005f73;
+}
+
+#review-filter {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1px solid #028090;
+    border-radius: 4px;
+}
+
+/* Reviews Section */
+#reviews-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e0fbfc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Review Card */
+.review-card {
+    background-color: #94d2bd;
+    color: #222;
+    margin: 20px 0;
+    padding: 15px;
+    border: 2px solid #028090;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.review-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Star Rating */
+.star-rating {
+    font-size: 1.5em;
+    color: #ffb703;
+}
+
+.review-title {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.review-text {
+    font-size: 1em;
+    line-height: 1.5;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Footer */
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+footer p, footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+footer a:hover {
+    color: #d3f8f3;
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+}
