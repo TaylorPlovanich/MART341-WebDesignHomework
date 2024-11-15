@@ -1,18 +1,16 @@
-/* Resetting default margin, padding, and setting box-sizing */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Basic styling for the body */
 body {
     font-family: 'Roboto', Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Navigation styles */
 nav {
     background-color: #028090;
     padding: 15px;
@@ -36,7 +34,6 @@ nav ul li a:hover {
     color: #d3f8f3;
 }
 
-/* Main banner styling */
 #main-banner {
     height: 250px;
     background-color: #005f73;
@@ -49,7 +46,6 @@ nav ul li a:hover {
     letter-spacing: 0.1em;
 }
 
-/* About us and services section styles */
 .about-us, .services {
     padding: 50px;
     text-align: center;
@@ -60,7 +56,6 @@ nav ul li a:hover {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Services content layout */
 .services-content {
     display: flex;
     justify-content: space-around;
@@ -84,7 +79,6 @@ nav ul li a:hover {
     transform: scale(1.05);
 }
 
-/* Styling for blockquotes */
 blockquote {
     font-size: 1.5em;
     font-style: italic;
@@ -98,7 +92,6 @@ blockquote {
     margin-top: 5px;
 }
 
-/* Full width image style */
 .full-width-image {
     width: 100%;
     height: auto;
@@ -106,7 +99,6 @@ blockquote {
     object-fit: cover;
 }
 
-/* Footer styles */
 footer {
     background-color: #005f73;
     color: white;
@@ -125,7 +117,6 @@ footer a:hover {
     color: #d3f8f3;
 }
 
-/* Banner section */
 .banner {
     height: 400px; 
     background-image: url('images/banner.jpg');
@@ -133,7 +124,7 @@ footer a:hover {
     background-position: center; 
 }
 
-/* Gallery layout */
+
 .gallery {
     display: flex;
     justify-content: center; 
@@ -148,17 +139,13 @@ footer a:hover {
     height: auto; 
 }
 
-/* Importing Google Fonts for Roboto */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/* Applying the Roboto font to headings */
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Reviews Page Styles */
-
-/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -191,7 +178,6 @@ h1 {
     color: #fff;
 }
 
-/* Navigation Bar */
 nav {
     background-color: #333;
     position: fixed;
@@ -224,15 +210,13 @@ nav ul li a:hover {
     background-color: #555;
 }
 
-/* Main Banner */
 #main-banner {
     background-color: #008CBA;
     padding: 50px 0;
-    margin-top: 60px; /* Adjusted for the fixed navbar */
+    margin-top: 60px; 
     text-align: center;
 }
 
-/* Dropdown */
 .dropdown {
     text-align: center;
     margin: 20px 0;
@@ -243,13 +227,12 @@ nav ul li a:hover {
     font-size: 1em;
 }
 
-/* Reviews Section */
 #reviews-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 20px;
-    overflow: auto; /* Handling overflow for multiple review cards */
+    overflow: auto; 
 }
 
 .review-card {
@@ -261,7 +244,7 @@ nav ul li a:hover {
     width: 300px;
     height: auto;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden; /* To handle any overflowing content within the card */
+    overflow: hidden; 
 }
 
 .star-rating {
@@ -290,36 +273,31 @@ footer {
     text-align: center;
 }
 
-/* Handling Overflow for Reviews Section */
 #reviews-container {
-    overflow: auto; /* In case there are too many cards on one row */
+    overflow: auto; 
 }
 
-/* Gallery layout for images */
 .gallery {
     display: flex;
-    justify-content: center;  /* Centers images horizontally */
-    align-items: center;  /* Aligns images vertically */
-    flex-wrap: wrap;  /* Allows images to wrap when the screen is small */
-    gap: 20px;  /* Space between images */
-    padding: 20px;  /* Padding around the gallery */
+    justify-content: center;  
+    align-items: center;  
+    flex-wrap: wrap;  
+    gap: 20px;  
+    padding: 20px;  
 }
 
-/* Individual image styling */
 .gallery-image {
-    max-width: 200px;  /* Limits the width of each image */
-    height: auto;  /* Ensures the aspect ratio of the image is maintained */
+    max-width: 200px; 
+    height: auto; 
 }
 
-/* Ensure body and html can expand beyond the viewport */
 html, body {
     height: 100%;
-    overflow-y: auto; /* Allows scrolling when content exceeds the viewport */
+    overflow-y: auto; 
 }
 
-/* Ensure that sections are allowed to grow beyond the viewport */
 .about-us, .contact {
-    min-height: 100vh; /* Makes sure sections stretch to at least the full height of the viewport */
+    min-height: 100vh; 
     padding: 50px;
     text-align: center;
     background-color: #e0fbfc;
@@ -327,10 +305,9 @@ html, body {
     max-width: 1000px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: auto; /* Allows content to overflow and enables scrolling within the section if needed */
+    overflow: auto; 
 }
 
-/* Adjust padding if necessary to prevent content being too cramped */
 .about-us p, .contact p {
     padding: 20px;
 }
