@@ -1,174 +1,293 @@
-/* General body styling */
-body {
-    display: flex;
-    flex-direction: column; /* Stack content vertically */
-    align-items: center; /* Center content horizontally */
-    justify-content: center; /* Center content vertically */
-    min-height: 100vh; /* Full viewport height */
-    margin: 0; /* Remove default browser margin */
-    text-align: center; /* Center text inside sections */
-    font-family: Arial, sans-serif; /* Add a default font */
-    background-color: #fdf6e4; /* Light background for all pages */
-    color: #333; /* Default text color */
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-/* Navigation menu */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #333;
+    padding: 1rem;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    background-color: #6a4c41; /* Coffee-themed background */
-    padding: 1rem 2rem;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.nav-links {
+nav .logo a {
+    font-size: 2rem;
+    color: #fff;
+}
+
+nav .nav-links {
     list-style: none;
     display: flex;
-    gap: 1rem;
+}
+
+nav .nav-links li {
+    margin-left: 2rem;
+}
+
+nav .nav-links a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav .nav-links li:hover {
+    border-bottom: 2px solid #f4a261;
+}
+
+/* Dropdown Menu */
+nav .nav-links li:hover .dropdown {
+    display: block;
+}
+
+nav .dropdown {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #333;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0;
+}
+
+nav .dropdown li {
     margin: 0;
-    padding: 0;
+    padding: 0.5rem 2rem;
 }
 
-.nav-links li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 0.5rem 1rem;
-    transition: background-color 0.3s ease, color 0.3s ease;
+nav .dropdown a {
+    color: #fff;
+    font-size: 1rem;
 }
 
-.nav-links li a:hover {
-    background-color: #f4a261; /* Accent color */
-    color: #333;
-    border-radius: 5px;
+nav .dropdown li:hover {
+    background-color: #f4a261;
 }
 
-/* Logo */
-.logo a {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-/* Hero section */
+/* Hero Section (Homepage) */
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 4rem 1rem;
-    background: #e7dbc6; /* Light coffee-themed background */
-    width: 100%;
-    box-shadow: inset 0 -5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #f4a261;
+    text-align: center;
+    padding: 6rem 2rem;
+    color: white;
 }
 
-.hero-content h1 {
-    font-size: 2.5rem;
+.hero h1 {
+    font-size: 3rem;
     margin-bottom: 1rem;
-    color: #6a4c41;
 }
 
-.hero-content p {
-    margin-bottom: 2rem;
-    font-size: 1.1rem;
+.hero p {
+    font-size: 1.5rem;
 }
 
 .cta-button {
-    display: inline-block;
-    margin-top: 1rem;
-    padding: 0.8rem 1.5rem;
-    background-color: #6a4c41; /* Coffee accent */
+    background-color: #333;
     color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
 }
 
 .cta-button:hover {
     background-color: #f4a261;
 }
 
-/* Section styling */
-section {
-    margin: 1.5rem 0;
-    width: 80%; /* Limit width for better readability */
-    max-width: 800px; /* Ensure content doesn’t stretch too wide */
+/* Menu Page */
+.menu {
+    padding: 4rem 2rem;
+    text-align: center;
 }
 
-/* Special Offers */
-.special-offers ul {
+.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.menu-category {
+    margin: 2rem 0;
+}
+
+.menu-category h3 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.menu-category ul {
     list-style: none;
-    padding: 0;
-    margin: 1rem 0;
+    padding-left: 0;
 }
 
-.special-offers ul li {
-    margin: 0.5rem 0;
+.menu-category ul li {
+    font-size: 1.2rem;
+    color: #666;
 }
 
-/* Location Section */
-.location a.cta-button {
-    background-color: #f4a261; /* Bright button for directions */
+/* About Page */
+.about {
+    padding: 4rem 2rem;
+    text-align: center;
 }
 
-.location a.cta-button:hover {
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 2rem 0;
+}
+
+/* Contact Page */
+.contact {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contact label {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    text-align: left;
+    width: 100%;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.contact button {
     background-color: #333;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.contact button:hover {
+    background-color: #f4a261;
 }
 
 /* Footer */
 footer {
-    width: 100%;
-    background-color: #6a4c41;
-    color: white;
-    padding: 1rem 0;
     text-align: center;
-    margin-top: auto; /* Push footer to the bottom */
+    padding: 2rem;
+    background-color: #333;
+    color: #fff;
 }
 
-footer .social-links {
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
+footer p {
+    font-size: 1rem;
 }
 
-footer .social-links a {
-    color: white;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 1rem;
+    }
 
-footer .social-links a:hover {
-    color: #f4a261;
-}
+    .nav-links li {
+        margin: 1rem 0;
+    }
 
-/* Media Queries for Responsive Design */
-@media (max-width: 768px) {
-    .hero-content h1 {
+    .hero h1 {
         font-size: 2rem;
     }
 
-    .nav-links {
-        flex-direction: column;
-        gap: 0.5rem;
+    .menu-category ul {
+        padding-left: 20px;
     }
 
-    section {
-        width: 90%; /* Adjust section width for smaller screens */
+    .contact form {
+        width: 80%;
     }
 }
 
-@media (max-width: 480px) {
-    .hero-content h1 {
+@media screen and (max-width: 480px) {
+    .hero h1 {
         font-size: 1.5rem;
     }
 
     .cta-button {
-        padding: 0.6rem 1.2rem;
-        font-size: 0.9rem;
+        padding: 0.8rem 1.6rem;
+        font-size: 1rem;
+    }
+
+    .menu-category ul {
+        padding-left: 15px;
+    }
+
+    .nav-links li {
+        margin-left: 0;
+    }
+
+    .contact input, .contact textarea {
+        padding: 0.8rem;
+    }
+
+    .contact button {
+        padding: 0.8rem 1.6rem;
     }
 }
+
+.special-offers, .location {
+    text-align: center; /* Centers text and inline elements */
+    padding: 2rem; /* Adds some spacing around the section */
+}
+
+.special-offers ul {
+    list-style: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+}
+
+.special-offers ul li {
+    margin: 0.5rem 0; /* Adds space between list items */
+}
+
+.location .cta-button {
+    margin-top: 1rem; /* Adds spacing above the "Get Directions" button */
+    display: inline-block; /* Ensures the button respects the centering */
+}
+
