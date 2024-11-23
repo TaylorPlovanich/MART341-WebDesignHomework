@@ -273,21 +273,21 @@ footer p {
 }
 
 .special-offers, .location {
-    text-align: center; /* Centers text and inline elements */
-    padding: 2rem; /* Adds some spacing around the section */
+    text-align: center; /
+    padding: 2rem; /
 }
 
 .special-offers ul {
-    list-style: none; /* Removes bullet points */
-    padding: 0; /* Removes default padding */
+    list-style: none; 
+    padding: 0; 
 }
 
 .special-offers ul li {
-    margin: 0.5rem 0; /* Adds space between list items */
+    margin: 0.5rem 0; 
 }
 
 .location .cta-button {
-    margin-top: 1rem; /* Adds spacing above the "Get Directions" button */
-    display: inline-block; /* Ensures the button respects the centering */
+    margin-top: 1rem; 
+    display: inline-block; /
 }
 
