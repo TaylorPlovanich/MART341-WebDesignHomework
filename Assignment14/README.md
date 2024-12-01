@@ -15,10 +15,11 @@ This project is a multi-page website for an imaginary client: a local coffee sho
 ## Techniques Used
 
 ### 1. **3+ Pages**
-   - **Implementation**: The website consists of three pages:
-     - `index.html` (Home)
-     - `menu.html` (Menu)
-     - `about.html` (About Us)
+   - **Implementation**: The website consists of four pages:
+   - `index.html` (Home)
+   - `menu.html` (Menu)
+   - `about.html` (About Us)
+   - `contact.html` (Contact)
    - **Purpose**: To provide a cohesive theme and allow users to explore different sections of the website.
 
 ---

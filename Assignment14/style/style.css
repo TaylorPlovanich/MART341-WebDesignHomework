@@ -85,18 +85,18 @@ nav .dropdown li:hover {
     background-color: #f4a261;
     text-align: center;
     padding: 6rem 2rem;
-    color: white; /* Default color for other text */
+    color: white; 
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: black; /* Override to black */
+    color: black; 
 }
 
 .hero p {
     font-size: 1.5rem;
-    color: black; /* Override to black */
+    color: black; 
 }
 
 .cta-button {
