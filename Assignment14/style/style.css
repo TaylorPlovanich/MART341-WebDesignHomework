@@ -85,16 +85,18 @@ nav .dropdown li:hover {
     background-color: #f4a261;
     text-align: center;
     padding: 6rem 2rem;
-    color: white;
+    color: white; /* Default color for other text */
 }
 
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
+    color: black; /* Override to black */
 }
 
 .hero p {
     font-size: 1.5rem;
+    color: black; /* Override to black */
 }
 
 .cta-button {
@@ -110,6 +112,32 @@ nav .dropdown li:hover {
 
 .cta-button:hover {
     background-color: #f4a261;
+}
+
+/* Special Offers Section */
+.special-offers {
+    text-align: center;
+    padding: 2rem;
+}
+
+.special-offers ul {
+    list-style: none;
+    padding: 0;
+}
+
+.special-offers ul li {
+    margin: 0.5rem 0;
+}
+
+/* Location Section */
+.location {
+    text-align: center;
+    padding: 2rem;
+}
+
+.location .cta-button {
+    margin-top: 1rem;
+    display: inline-block;
 }
 
 /* Menu Page */
@@ -220,6 +248,16 @@ footer p {
     font-size: 1rem;
 }
 
+footer .social-links a {
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+}
+
 /* Media Queries for Responsiveness */
 @media screen and (max-width: 768px) {
     .nav-links {
@@ -271,23 +309,3 @@ footer p {
         padding: 0.8rem 1.6rem;
     }
 }
-
-.special-offers, .location {
-    text-align: center; /
-    padding: 2rem; /
-}
-
-.special-offers ul {
-    list-style: none; 
-    padding: 0; 
-}
-
-.special-offers ul li {
-    margin: 0.5rem 0; 
-}
-
-.location .cta-button {
-    margin-top: 1rem; 
-    display: inline-block; /
-}
-
