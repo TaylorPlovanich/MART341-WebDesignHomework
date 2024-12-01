@@ -14,7 +14,7 @@ This project is a multi-page website for an imaginary client: a local coffee sho
 
 ## Techniques Used
 
-### 1. **3+ Pages**
+### 1. **4 Pages**
    - **Implementation**: The website consists of four pages:
    - `index.html` (Home)
    - `menu.html` (Menu)
