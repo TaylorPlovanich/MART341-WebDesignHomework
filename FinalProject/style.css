@@ -116,3 +116,29 @@ footer {
     background-color: #555; /* Darker background on focus */
     border-color: #f39c12; /* Button color when focused */
 }
+
+/* Quick Links Section */
+.quick-links {
+    background-color: #222; /* Match footer background */
+    color: #f1f1f1; /* Light text for readability */
+}
+
+.quick-links h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #f39c12; /* Accent color for headings */
+}
+
+.quick-links ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.quick-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.quick-links p {
+    margin: 0.5rem 0;
+}
+
