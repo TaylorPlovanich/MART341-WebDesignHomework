@@ -19,7 +19,7 @@ For the final project, I chose to refine and expand upon the **FitLife Gym** web
 ### 1. Homepage (`index.html`)
 - **Purpose**: Serves as the landing page, introducing visitors to FitLife Gym.
 - **Features**:
-  - Embedded video showcasing the gym facilities and atmosphere.
+  - Embedded video showcasing a workout.
   - A hero section with a welcome message and call-to-action button.
   - Quick links to key sections and policies.
 
@@ -34,8 +34,6 @@ For the final project, I chose to refine and expand upon the **FitLife Gym** web
 - **Features**:
   - Address, phone number, and email.
   - Contact form for inquiries.
-  - Embedded Google Maps location.
-
 ---
 
 ## Required Elements
