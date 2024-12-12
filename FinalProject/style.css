@@ -1,4 +1,4 @@
-/* General Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -8,33 +8,33 @@
 /* Body & Main Font */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #121212; /* Dark background for the entire page */
-    color: #f1f1f1; /* Light text for contrast */
+    background-color: #121212; 
+    color: #f1f1f1; 
     line-height: 1.6;
 }
 
 /* Navbar */
 .navbar {
-    background-color: #222; /* Darker navbar background */
+    background-color: #222; 
 }
 
 .navbar-brand {
     font-weight: bold;
-    color: #f1f1f1; /* Light color for navbar brand */
+    color: #f1f1f1; 
 }
 
 .navbar-nav .nav-link {
-    color: #f1f1f1; /* Light color for navbar links */
+    color: #f1f1f1; 
     font-weight: 600;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #f39c12; /* Highlight color on hover */
+    color: #f39c12; 
 }
 
 /* Hero Section */
 .hero-section {
-    background-color: #333; /* Dark background for the hero section */
+    background-color: #333; 
     color: white;
     padding: 100px 20px;
 }
@@ -49,13 +49,13 @@ body {
 }
 
 .hero-section .btn {
-    background-color: #f39c12; /* Button color */
+    background-color: #f39c12; 
     color: #fff;
     font-weight: bold;
 }
 
 .hero-section .btn:hover {
-    background-color: #e67e22; /* Hover button color */
+    background-color: #e67e22; 
 }
 
 /* Overlay Circles */
@@ -81,8 +81,8 @@ body {
 
 /* Footer */
 footer {
-    background-color: #222; /* Dark footer background */
-    color: #f1f1f1; /* Light footer text */
+    background-color: #222; 
+    color: #f1f1f1; 
     text-align: center;
     padding: 10px;
 }
@@ -90,8 +90,8 @@ footer {
 /* Cards */
 .card {
     border: none;
-    background-color: #333; /* Dark card background */
-    color: #f1f1f1; /* Light text in cards */
+    background-color: #333; 
+    color: #f1f1f1; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -102,31 +102,31 @@ footer {
 /* Forms */
 .form-label {
     font-weight: bold;
-    color: #f1f1f1; /* Light label text */
+    color: #f1f1f1; 
 }
 
 .form-control {
-    background-color: #444; /* Dark input background */
-    color: #f1f1f1; /* Light input text */
+    background-color: #444; 
+    color: #f1f1f1; 
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .form-control:focus {
-    background-color: #555; /* Darker background on focus */
-    border-color: #f39c12; /* Button color when focused */
+    background-color: #555; 
+    border-color: #f39c12; 
 }
 
 /* Quick Links Section */
 .quick-links {
-    background-color: #222; /* Match footer background */
-    color: #f1f1f1; /* Light text for readability */
+    background-color: #222; 
+    color: #f1f1f1; 
 }
 
 .quick-links h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #f39c12; /* Accent color for headings */
+    color: #f39c12; /
 }
 
 .quick-links ul {
@@ -144,13 +144,13 @@ footer {
 
 /* Video Section */
 .video-section {
-    background-color: #333; /* Dark background */
+    background-color: #333; 
     padding: 50px 20px;
 }
 
 .video-section h2 {
     font-size: 2rem;
-    color: #f39c12; /* Accent color for the heading */
+    color: #f39c12; 
     margin-bottom: 1rem;
 }
 
@@ -161,19 +161,19 @@ footer {
 
 .gym-video {
     width: 100%;
-    max-width: 800px; /* Limit the size of the video */
-    border: 5px solid #f39c12; /* Accent border */
-    border-radius: 10px; /* Smooth edges */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+    max-width: 800px; 
+    border: 5px solid #f39c12; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
 }
 
 /* Apply Roboto font */
 body {
-    font-family: 'Roboto', sans-serif; /* Set as the default font for the page */
+    font-family: 'Roboto', sans-serif; 
 }
 
 h1, h2, h3, h4, h5, h6, p, a, nav, footer, section {
-    font-family: 'Roboto', sans-serif; /* Ensure it applies to headers, links, and other key elements */
+    font-family: 'Roboto', sans-serif; 
 }
 
 
