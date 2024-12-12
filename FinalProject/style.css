@@ -176,4 +176,13 @@ h1, h2, h3, h4, h5, h6, p, a, nav, footer, section {
     font-family: 'Roboto', sans-serif; 
 }
 
-
+/* Hover Effects for Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
