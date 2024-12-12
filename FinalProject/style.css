@@ -167,4 +167,13 @@ footer {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
 }
 
+/* Apply Roboto font */
+body {
+    font-family: 'Roboto', sans-serif; /* Set as the default font for the page */
+}
+
+h1, h2, h3, h4, h5, h6, p, a, nav, footer, section {
+    font-family: 'Roboto', sans-serif; /* Ensure it applies to headers, links, and other key elements */
+}
+
 
